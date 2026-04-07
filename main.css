@@ -19,6 +19,7 @@ li {
 .form {
     padding: 10px;
 }
+
 .card_img {
     display: flex;
     flex-wrap: wrap;
@@ -31,4 +32,16 @@ li {
 
 .favourite {
     background-color: aquamarine;
+}
+
+.js_AllSeries {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    height: 100vh;
+}
+
+css_cards {
+    display: flex;
+    align-items: center;
 }

@@ -10,20 +10,25 @@
 
    <body>
     <header class="header">
-      <div class="header__brand">
-        <span class="header__icon">🎬</span>
+      <div class="headerBrand">
         <h1 class="header__title">Ada-evaluación</h1>
+        <span class="header__icon">🎬</span>
       </div>
     </header>
 
     <main class="main">
+      <div class="favourites_series">
+        <h2>Tus series favoritas</h2>
+        <ul class="js_ulFavourite"></ul>
+      </div>
         <section class="search">
             <h2 class="title">Buscar</h2>
             <form class="form" id="form">
-                <input class="input js_in_search_desc" type="text" placeholder="Título" />
+                <input class="input js_search_input" type="text" placeholder="Título" />
                 <button type="submit" class="button js_button-search">Buscar</button>
-      <ul class="watchlist js_AllSeries">
+      <ul class="js_AllSeries">
       </ul>
+    </section>
     </main>
     <script src="./main.js"></script>
   </body>
